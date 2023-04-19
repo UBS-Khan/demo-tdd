@@ -1,12 +1,24 @@
 .itemContainer {
     display: flex;
     justify-content: space-between;
+    width: 40%;
     margin: 15px 0;
+    padding: 15px;
+    border-radius: .2rem;
+    box-shadow: 2px 2px 8px #888888;
+    background-color: rgb(141, 224, 148);
   }
   
   .closeBtn {
-    color: red;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: .2rem;
     font-weight: 800;
+  }
+
+  .closeBtn:hover{
+    background-color: rgb(218, 0, 0);
   }
   
   .closeBtn:hover {
